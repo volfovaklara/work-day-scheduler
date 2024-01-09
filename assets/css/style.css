@@ -9,7 +9,7 @@ textarea {
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
+  border-left: 3px solid black;
   padding: 10px;
 }
 
@@ -69,4 +69,16 @@ header {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.past {
+  background-color: #d3d3d3; /* Gray for past */
+}
+
+.present {
+  background-color: #ff6961; /* Light red for present */
+}
+
+.future {
+  background-color: #77dd77; /* Light green for future */
 }
